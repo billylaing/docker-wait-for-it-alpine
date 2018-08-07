@@ -6,4 +6,3 @@ Ever needed to wait on a container to start up? No reason to `sleep` anymore!
 docker run -d --name postgres postgres
 docker run --link postgres:db blaing/wait-for-it db:5432
 ```
-
