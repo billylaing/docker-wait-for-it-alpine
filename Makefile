@@ -1,4 +1,4 @@
-version := 1.0.1
+version := 1.0.3
 
 image:
 	docker build -t blaing/wait-for-it:$(version) .
