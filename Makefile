@@ -1,4 +1,4 @@
-version := 1.0.1
+version := $(shell git rev-parse --abbrev-ref HEAD)
 
 image:
 	docker build -t blaing/wait-for-it:$(version) .
