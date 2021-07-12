@@ -1,0 +1,8 @@
+services:
+  wait:
+    build: .
+    image: blaing/wait-for-it
+    command: ["nginx:80"]
+  nginx:
+    image: nginx:latest
+

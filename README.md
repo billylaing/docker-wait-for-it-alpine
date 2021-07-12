@@ -7,6 +7,6 @@
 Ever needed to wait on a container to start up? No reason to `sleep` anymore!
 
 ```bash
-docker run -d --name postgres postgres
-docker run --link postgres:db blaing/wait-for-it db:5432
+docker run -d --name nginx nginx
+docker run --link nginx:nginx blaing/wait-for-it nginx:80
 ```
